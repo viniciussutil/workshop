@@ -1,0 +1,9 @@
+package com.viniciussutil.webservicesproject.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.viniciussutil.webservicesproject.entities.Category;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {	
+	
+}
